@@ -1,0 +1,7 @@
+<h3>Les Employés</h3>
+<div *ngFor="let employe of employes">
+<h4>{{employe.nom}}</h4>
+<ul *ngIf="employe.s1j1">
+  <li>{{afficherDate(employe.s1j1.debut)}} - {{afficherDate(employe.s1j1.fin)}}</li>
+</ul>
+</div>
