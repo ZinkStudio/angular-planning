@@ -1,4 +1,4 @@
-import {horaire} from './horaire.ts';
+import {Horaire} from './horaire.ts';
 export const EMPLOYES: Employe[] = [
     {
         id: 1,
@@ -22,16 +22,16 @@ export const EMPLOYES: Employe[] = [
 export class Employe {
   id: number;
   nom: string;
-  s1j1: horaire;
-  s1j2: horaire;
-  s1j3: horaire;
-  s1j4: horaire;
-  s1j5: horaire;
-  s1j6: horaire;
-  s2j1: horaire;
-  s2j2: horaire;
-  s2j3: horaire;
-  s2j4: horaire;
-  s2j5: horaire;
-  s2j6: horaire;
+  s1j1: Horaire;
+  s1j2: Horaire;
+  s1j3: Horaire;
+  s1j4: Horaire;
+  s1j5: Horaire;
+  s1j6: Horaire;
+  s2j1: Horaire;
+  s2j2: Horaire;
+  s2j3: Horaire;
+  s2j4: Horaire;
+  s2j5: Horaire;
+  s2j6: Horaire;
 }
